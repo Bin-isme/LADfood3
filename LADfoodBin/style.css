@@ -14,7 +14,7 @@
 
 .shop-name {
     /* padding-left: 15px; */
-    color: white;
+    color: black;
     text-decoration: none;
 }
 .shop-name:hover{
@@ -32,7 +32,7 @@
     height: 50px;
     flex-direction:row;
     }
-.nav-bar a:hover{color:rgb(83, 10, 10);}    
+/* .nav-bar a:hover{color:rgb(83, 10, 10);}     */
 .nabbar{margin: 0px 10px;}
 .product-container{
     display: flex;
@@ -153,8 +153,14 @@ button{
     text-decoration: none;
     /* display:block; */
   }
-  .dropdown-content2 a:hover {color: #f1f1f1;}
+  .dropdown-content2 a:hover { color: #f1f1f1;}
   .dropdown2:hover .dropdown-content2 {
     display: block;
   }
-  
+  .shop-name1{
+    color: white;
+    text-decoration: none;
+  }
+  .shop-name1:hover{
+    text-decoration: underline;
+}
